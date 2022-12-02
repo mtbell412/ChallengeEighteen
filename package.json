@@ -1,0 +1,25 @@
+{
+  "name": "challengeeighteen",
+  "version": "1.0.0",
+  "description": "mongoDB challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtbell412/ChallengeEighteen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtbell412/ChallengeEighteen/issues"
+  },
+  "homepage": "https://github.com/mtbell412/ChallengeEighteen#readme",
+  "dependencies": {
+    "dayjs": "^1.11.6",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5"
+  }
+}
