@@ -9,7 +9,7 @@ const thoughtSchema = new Schema(
         max_length: 280,
         min_length: 1
     },
-    createAt:{
+    createdAt:{
         type: Date,
         default: Date.now(),
         get: (time) => {
