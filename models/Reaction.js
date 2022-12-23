@@ -1,4 +1,4 @@
-const {Schema, model, Types} = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const dayjs = require('dayjs');
 
 
@@ -14,11 +14,11 @@ const reactionSchema = new Schema(
             required: true,
             max_length: 280,
         },
-        username:{
+        username: {
             type: String,
             required: true,
         },
-        createdAt:{
+        createdAt: {
             type: Date,
             default: Date.now(),
             get: (time) => {
@@ -28,8 +28,8 @@ const reactionSchema = new Schema(
         }
     },
     {
-        toJSON:{
-            virtuals: true,
+        toJSON: {
+            // virtuals: true, getters only like in assignments
             getters: true
         },
         id: false,
